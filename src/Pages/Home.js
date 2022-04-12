@@ -9,6 +9,7 @@ import PropertyList from "../components/propertyList";
 import Services from "../components/Services/Services";
 import List from "../components/List/List";
 import Footer from "../components/Footer/Footer";
+import CheckboxesGroup from "../components/filter/filter"
 
 import { SearchBar } from "../components/SearchBarTemp";
 
@@ -89,6 +90,7 @@ function Home({ data }) {
       </div>
       <ChatbotSearch data={data} />
       <Footer />
+      
     </div>
   );
 }

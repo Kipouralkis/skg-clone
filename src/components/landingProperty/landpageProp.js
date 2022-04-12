@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./landpageProp.css";
 import Card from "react-bootstrap/Card";
+import house from "../assets/house.jpg";
 
 
 const LandpageProp = ({ data }) => {
@@ -31,7 +32,9 @@ const LandpageProp = ({ data }) => {
               <div id="property-single-carousel" class="swiper">
                 <div class="swiper-wrapper">
                   <div class="carousel-item-b swiper-slide">
-                    <Card.Img className="land-img" src={property.image} />
+                    {property.image && <Card.Img className="land-img" src={property.image} />}
+                    {!property.image && <Card.Img className="land-img" src={house} />}!
+
                   </div>
                 </div>
               </div>

@@ -16,6 +16,13 @@ export const MenuItems = [
         url: '/rent',
         cName: 'nav-links'
 
+    },
+      {
+        title: 'Filter',
+        url: '/filter',
+        cName: 'nav-links'
+
     }
+
 
 ]
