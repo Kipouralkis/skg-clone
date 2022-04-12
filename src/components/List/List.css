@@ -7,7 +7,7 @@ ul, ol{
 }
 
 .new-li {
-    background: var(--green-blue);
+    background: var(--test);
     color: #fff;
     counter-increment: myCounter;
     margin: 0 0 30px 0;
@@ -35,5 +35,5 @@ ul, ol{
 
 
 .new-li:nth-child(even){
-    background-color: #434A54;
+    background-color: var(--gray-blue);
 }

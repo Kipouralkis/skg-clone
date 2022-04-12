@@ -9,17 +9,15 @@ function Header() {
    
        <Link to="/">
             <h1 className='Header-logo'><i 
-      style={{color: "var(--gray-blue)"}} 
       className="fas fa-sign-hanging">
       </i></h1>
        </Link>
       <h1
-      style={{color: "white"}} 
+      style={{color: "var(--light-shades)"}} 
       >Fullstack360</h1>
       <form onSubmit="console.log('You clicked submit.'); return false">
       <FaSignInAlt />
       
-        
       </form>
     </div>
   );

@@ -15,6 +15,8 @@ import { SearchBar } from "../components/SearchBarTemp";
 
 import styled from "styled-components";
 
+import ChatbotSearch from "../ChatbotSearch"
+
 const AppContainer = styled.div`
   width: 100%;
   height: 100%;
@@ -86,7 +88,7 @@ function Home({ data }) {
         ></Heading2>
         <List />
       </div>
-
+      <ChatbotSearch data={data} />
       <Footer />
       
     </div>

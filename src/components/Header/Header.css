@@ -14,3 +14,10 @@
     padding: 0 30px;
   
   }
+  .fa-sign-hanging{
+    color: var(--light-shades);
+    float: left;
+    padding: 0.2%;
+    font-size: 2.5rem;
+}
+  

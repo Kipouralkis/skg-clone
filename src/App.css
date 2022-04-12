@@ -4,15 +4,18 @@ body {
   --gray-blue: #5b7db1;
   --green-blue: #61a4bc;
   --beige: #f7e2e2;
+  --test:rgb(149, 150, 167);
+  --hover: #d4dbe7;
 
-  --light-shades: #f3f6fc;
+
+  --light-shades: #f4f6f9;
   --light-accent: #1f77c8;
   --main-color: #57d0dd;
   --dark-accent: #495882;
   --dark-shades: #212636;
 
   --light: #5ce0d8;
-  --dark: #01345b;
+  --dark: #001a2e;
   --accent: #ffcf43;
 }
 

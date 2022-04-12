@@ -1,7 +1,7 @@
 .NavbarItems {
     /*background: linear-gradient(90deg, rgb(178, 173, 219) 0%, rgb(116, 112, 189) 100%);*/
     background: linear-gradient(180deg, rgb(240, 248, 255) 0%, rgba(116, 112, 189, 0) 100%);
-    margin-top: 3.8%;
+    margin-top: 5.5%;
     height: 80px;
     display: flex;
     justify-content: left;
@@ -37,6 +37,7 @@
 
 .nav-links:hover {
     background-color: var(--light-shades);/*rgb(201, 201, 238);*/
+    color: var(--dark-shades);
     padding: 1rem;
     border-radius: 4px;
     transition: all 0.2s ease-out;
@@ -67,7 +68,7 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active {
-        background: rgb(178, 173, 219);
+        background: var(--light-shades);
         left: 0;
         opacity: 1;
         transition: all 0.5 ease;
@@ -80,7 +81,7 @@
         display: table;
     }
     .nav-links:hover{
-        background-color:  rgb(201, 201, 238);
+        background-color:  var(--hover);
         border-radius: 100%;
         transition: all 2s ease;
     }
